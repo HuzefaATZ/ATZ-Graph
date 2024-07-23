@@ -1,0 +1,51 @@
+#chart-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #F39A34; /* Base color for the button */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background: #d6822e; /* Darker shade for hover effect */
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#employeeCount {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 20px;
+    background-color: #fff4e0; /* Light background color */
+    border: 2px solid #F39A34; /* Border matching button color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #F39A34; /* Text color matching button */
+    font-weight: bold; /* Bold text */
+    transition: box-shadow 0.3s ease;
+}
+
+#employeeCount:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
