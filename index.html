@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$CAD Chart</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="chart-container">
+        <canvas id="employeeChart"></canvas>
+        <div id="button-container">
+            <button onclick="changeEmployees(-1)">-1</button>
+            <span id="employeeCount">Employees: 1</span>
+            <button onclick="changeEmployees(1)">+1</button>
+        </div>
+    </div>
+</body>
+</html>
